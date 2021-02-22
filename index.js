@@ -16,8 +16,7 @@ for (let i = 0; i < clientes.length; i++) {
         let cpf = question("Qual e' o seu cpf? ");
         clientes[i] = new Cliente(nome, cpf);
         console.log(clientes[i]);
-}
-    
+} 
 console.log(clientes);
 
 
